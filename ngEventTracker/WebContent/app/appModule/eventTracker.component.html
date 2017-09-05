@@ -1,0 +1,20 @@
+<div>
+<table style="width: 100%">
+	<tr>
+		<th>Event ID</th>
+		<th>Got munchies</th>
+		<th>Percent THC</th>
+		<th>Type</th>
+		<th>Method of use</th>
+		<th>Comment</th>
+	</tr>
+	<tr ng-repeat="event in vm.list">
+		<td >{{event.id}}</td>
+		<td>{{event.gotMunchies}}</td>
+		<td>{{event.percentTHC}}</td>
+		<td>{{event.type}}</td>
+		<td>{{event.methodOfUse}}</td>
+	</tr>
+</table>
+
+</div>
